@@ -27,7 +27,7 @@ Get into the folder and run the following command
 Congrats your fan is now finally running.
 
 ## 4 Next from everytime booting into the system just use the following command into the terminal and the fan will turn on.
-- ```sudo argonone```
+- ```argonone```
 
 ## <a href="https://www.buymeacoffee.com/kurumi.the.nightmare">BUY ME A COFFEE</a>
 
