@@ -21,6 +21,7 @@ Now restart your raspberry pi to get the configuration and modules loaded.
 
 ## 3 Run the bash script
 
+Get into the folder and run the following command
 - ```sudo argonone.sh```
 
 Congrats your fan is now finally running.
