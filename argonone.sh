@@ -11,4 +11,4 @@ argonone-cli --hysteresis 3
 argonone-cli --commit
 cd ${USER_HOME}
 echo 'Fan is probably running if everything went okay'
-echo alias argonone='sudo bash ~/Downloads/argonone-fan-arch-linux/argonone.sh' >> ${USER_HOME}/.bashrc
+echo alias argonone=\'sudo bash ~/Downloads/argonone-fan-arch-linux/argonone.sh\' >> ${USER_HOME}/.bashrc
