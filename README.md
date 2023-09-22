@@ -1,2 +1,29 @@
 # argonone-fan-arch-linux
-A bash script that runs the argon one pi4 fan in your arch/manjiro linux
+A bash script that runs the argon one pi4 fan in your arch/manjiro linux raspberry pi machine
+
+## 1. Turn on i2c because it won't be enabled by default.
+Go to "/boot/config.txt" and open it in nano or vim and add the following at the end of the file
+
+- ```sudo nano /boot/config.txt```
+- ```dtparam=i2c_arm=on```
+
+Then go to "/etc/modules-load.d/raspberrypi.conf" and open it and add the following at the end of the file
+
+- ```sudo nano /etc/modules-load.d/raspberrypi.conf```
+- ```i2c-dev```
+
+Now restart your raspberry pi to get the configuration and modules loaded.
+
+
+## 2 Clone this repo into your Downloads folder
+
+- ```git clone https://github.com/anime-in-the-world/argonone-fan-arch-linux.git```
+
+## 3 Run the bash script
+
+- ```sudo argonone.sh```
+
+Congrats your fan is now finally running.
+
+## 4 Next from everytime booting into the system just use the following command into the terminal and the fan will turn on.
+- ```sudo argonone```
