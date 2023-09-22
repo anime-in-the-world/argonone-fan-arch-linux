@@ -1,6 +1,6 @@
 #!/bin/sh
 USER_HOME=$(eval echo ~${SUDO_USER})
-#pacman -S i2c-tools gcc dtc make git bash 
+pacman -S i2c-tools gcc dtc make git bash 
 i2cdetect -y 1
 cd ${USER_HOME}/Downloads/argonone-fan-arch-linux
 make mrproper
